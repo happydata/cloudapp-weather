@@ -2,7 +2,7 @@
 
 ![](https://snap.icorbin.com/Screen-Shot-2017-01-22-10-12-18.png)
 
-This repo contains the first version of [Nomie's](https://nomie.io) Weather app. The purpose is to showcase building an interactive Nomie app using a single javascript function and AWS Lambda. 
+This repo contains the first version of [Nomie's](https://nomie.io) Weather app. The purpose is to showcase building an interactive Nomie app using a single javascript function and AWS Lambda.
 
 What's a Nomie Cloud App? **[Here's an Overview](https://github.com/happydata/nomie-docs/blob/master/cloud-apps.md)**
 
@@ -14,7 +14,7 @@ What's a Nomie Cloud App? **[Here's an Overview](https://github.com/happydata/no
 
 # Cloud App Response
 
-When a Cloud App runs, it has a few different ways of interfacing with the user. 
+When a Cloud App runs, it has a few different ways of interfacing with the user.
 
 - **HTML** - display a modal that contains XSS filtered HTML (no inline styles, javascript etc)
 - **URL** - Display a website either within Nomie's builtin browser, or the users system web browser.
@@ -27,8 +27,20 @@ This specific weather app leverages the HTML and Commands.
 
 ![](https://snap.icorbin.com/Screen-Shot-2017-01-22-10-12-52.png)
 
-## Triggering Nomie Commands 
+## Triggering Nomie Commands
 
-Automatically Tracking the Temp and Humidity 
+Automatically Tracking the Temp and Humidity
 
 ![](https://snap.icorbin.com/Screen-Shot-2017-01-22-10-16-21.png)
+
+## AWS Setup
+
+This part is going to be painfully thin on info... Sorry, I'll keep adding to it.
+
+### Requirements
+
+- [OpenWeatherMap API Key](https://openweathermap.org/appid)
+- [AWS Account](https://aws.amazon.com)
+- DynamoDB Access
+- API Gateway Access
+- Lambda Access 
